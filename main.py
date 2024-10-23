@@ -4,10 +4,10 @@ from paddleocr import PaddleOCR
 from PIL import Image
 import numpy as np
 import cv2
-
+from flask_cors import CORS
 # Initialize Flask app
 app = Flask(__name__)
-
+CORS(app)
 # Ensure uploads directory exists
 if not os.path.exists('uploads'):
     os.makedirs('uploads')
