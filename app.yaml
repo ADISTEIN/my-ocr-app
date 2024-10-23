@@ -1,0 +1,6 @@
+# app.yaml
+
+env: python
+
+# The entry point for running the Flask app
+start: gunicorn main:app
