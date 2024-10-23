@@ -4,3 +4,4 @@ paddlepaddle
 paddleocr
 opencv-python
 gunicorn
+flask-cors
